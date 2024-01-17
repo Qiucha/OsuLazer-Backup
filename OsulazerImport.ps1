@@ -1,5 +1,5 @@
 # Ask for backup path
-# Set usful vars
+# Set useful vars
 
 $bk_path = Read-Host -Prompt "Paste your backup path"
 $uname = $env:USERNAME
