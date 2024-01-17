@@ -21,4 +21,4 @@ line to your own fixed backup path.For example:
 
 `$bk_path = "D:\Backup\"`
 
-Note that -Force option is written into scripts, files would be overwritten by these two scripts.
+Note that `-Force` option is written into scripts, files would be overwritten by these two scripts.
