@@ -6,7 +6,7 @@ Backup Scripts for OsuLazer using powershell commands
 
 Usage:
 
-To backup data & songs of osulazer:
+To backup osulazer:
 
 run `OsulazerBackup.ps1`
 
