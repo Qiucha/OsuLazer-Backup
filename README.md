@@ -10,7 +10,7 @@ To backup osulazer:
 
 run `OsulazerBackup.ps1`
 
-To import backed up data & songs to osulazer:
+To import to osulazer:
 
 run `OsulazerImport.ps1`
 
