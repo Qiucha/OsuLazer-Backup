@@ -36,7 +36,7 @@ add a task to task scheduler:
 trigger set to whenever you want to backup.
 
 
-## What these 2 scripts do?
+## What do these two scripts do?
 
 They simply "zip/extract" the two "directory/zip files" below to two "zip files/directory":
 
