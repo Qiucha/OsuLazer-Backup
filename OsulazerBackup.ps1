@@ -23,7 +23,7 @@ if ( "" -eq $bk_path ){
     $bk_path = Read-Host -Prompt "Paste your backup path"
 }
 
-if (!(Test-Path -Path $bk_file_Local)){
+if (!(Test-Path -Path $bk_path)){
 	Read-Host -Prompt "Path not found, please check your path. Press enter to exit..."
 } else {
 	# Set usful vars
