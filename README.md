@@ -1,4 +1,4 @@
-###OsuLazer-Backup
+### OsuLazer-Backup
 Backup Scripts for OsuLazer using powershell commands
 
 * NOTE THAT THIS BACKUP METHOD WOULD SAVE/LOAD THE WHOLE SESSION, INCLUDING LOGIN INFO
@@ -6,11 +6,11 @@ DO NOT SHARE THE ZIP FILES TO OTHER PLAYERS JUST EXPECTING SHARING YOUR SONG OR 
 
 ##Usage:
 
-#To backup osulazer:
+# To backup osulazer:
 
 run `OsulazerBackup.ps1`
 
-#To import to osulazer:
+# To import to osulazer:
 
 run `OsulazerImport.ps1`
 
@@ -28,7 +28,7 @@ line to your own fixed backup path.For example:
 Note that `-Force` option is written into both scripts, files would be overwritten by these two scripts.
 
 
-##Automation
+## Automation
 
 add a task to task scheduler:
 
@@ -37,7 +37,7 @@ add a task to task scheduler:
 trigger set to whenever you want to backup.
 
 
-##What these 2 scripts do?
+## What these 2 scripts do?
 
 They simply "zip/extract" the two "directory/zip files" below to two "zip files/directory":
 
