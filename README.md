@@ -40,7 +40,8 @@ trigger set to whenever you want to backup.
 
 They simply "zip/extract" the two "directory/zip files" below to two "zip files/directory":
 
-`%USERNAME%\AppData\Local\osulazer`
-`%USERNAME\AppData\Roaming\osu`
+`%USERNAME%\AppData\Local\osulazer` ←→ `back\up\path\to\osulazer.zip`
+
+`%USERNAME\AppData\Roaming\osu` ←→ `back\up\path\to\osu.zip`
 
 Feel free to do this manually, I'm just too lazy to weekly copy&paste these two directory to somewhere else.
