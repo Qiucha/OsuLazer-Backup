@@ -1,16 +1,16 @@
-### OsuLazer-Backup
+# OsuLazer-Backup
 Backup Scripts for OsuLazer using powershell commands
 
 * NOTE THAT THIS BACKUP METHOD WOULD SAVE/LOAD THE WHOLE SESSION, INCLUDING LOGIN INFO
 DO NOT SHARE THE ZIP FILES TO OTHER PLAYERS JUST EXPECTING SHARING YOUR SONG OR COLLECTION!!!
 
-##Usage:
+## Usage:
 
-# To backup osulazer:
+### To backup osulazer:
 
 run `OsulazerBackup.ps1`
 
-# To import to osulazer:
+### To import to osulazer:
 
 run `OsulazerImport.ps1`
 
