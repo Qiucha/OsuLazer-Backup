@@ -8,19 +8,26 @@
 $defaultPolicy = Get-ExecutionPolicy
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
 
+$bk_path = Split-Path -Path $MyInvocation.MyCommand.Path -Parent
+$bk_path = $bk_path+"\OsuBackup"
 
 # Ask for backup path
-# Paste your back up path HERE between "" 
-
+# Paste your back up path below between "", and remove the "#" in front of $bk_path
 #---for example: $bk_path = "D:\Backup"---#
-$bk_path = ""
+#$bk_path = ""
 #---
 
 
 # If not set, ask for user input at first
 
-if ( "" -eq $bk_path ){
-    $bk_path = Read-Host -Prompt "Paste your backup path"
+if (((Split-Path -Path $MyInvocation.MyCommand.Path -Parent)+"\OsuBackup") -eq $bk_path){
+    $user_input = Read-Host -Prompt "Paste your backup path and hit Enter, or simply press Enter to create a folder with your scripts."
+    if ("" -eq $user_input){
+    	Write-Output "Creating default path..."
+    	New-Item -ItemType Directory -Path $bk_path
+    } else {
+    	$bk_path = $user_input
+    }
 }
 
 if (!(Test-Path -Path $bk_path)){
