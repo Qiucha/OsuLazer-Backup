@@ -23,8 +23,10 @@ $bk_path = $bk_path+"\OsuBackup"
 if (((Split-Path -Path $MyInvocation.MyCommand.Path -Parent)+"\OsuBackup") -eq $bk_path){
     $user_input = Read-Host -Prompt "Paste your backup path and hit Enter, or simply press Enter to create a folder with your scripts."
     if ("" -eq $user_input){
-    	Write-Output "Creating default path..."
-    	New-Item -ItemType Directory -Path $bk_path
+	    if (!(Test-Path -Path $bk_path)) {
+    		Write-Output "Creating default path..."
+	    	New-Item -ItemType Directory -Path $bk_path
+		}
     } else {
     	$bk_path = $user_input
     }
