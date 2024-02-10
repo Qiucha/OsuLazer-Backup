@@ -45,3 +45,8 @@ They simply "zip/extract" the two "directory/zip files" below to two "zip files/
 `%USERNAME\AppData\Roaming\osu` ←"zip/extract"→ `back\up\path\to\osu.zip`
 
 Feel free to do this manually, I'm just too lazy to weekly copy&paste these two directory to somewhere else.
+
+
+## Why?
+
+Personally only play on lazer version, which could be annoying to transfer to new PC.
